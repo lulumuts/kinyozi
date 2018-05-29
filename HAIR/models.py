@@ -29,6 +29,7 @@ class Location(models.Models):
 
 
 class Style(model.Models):
+
     image = models.ImageField(upload_to='products/', blank=True)
     name = models.Charfield()
 
